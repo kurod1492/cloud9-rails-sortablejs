@@ -20,13 +20,13 @@ Webpacker のインストールも実行します。
 
     rails new sortablejs-test
     cd sortablejs-test
-    rails webpacker:install
 
 次に scaffold を使って User モデルを持つアプリケーションの雛型を作成します。
 User モデルが持つ情報は、名前(文字列型)と年齢(整数型)とします。
 
     rails generate scaffold User name:string age:integer
-    rails db:migrate    
+    rails db:create
+    rails db:migrate
 
 Cloud9 のプレビュー機能からアクセスできるように、アクセスを許可する設定を追加します。
 
@@ -65,7 +65,7 @@ Yarn を使います。以下のコマンドを実行します。
 
     yarn add sortablejs
 
- 
+
 ## Javascript プログラムの作成
 
 並べ替えをしてくれる Javascript プログラムを作成します。
