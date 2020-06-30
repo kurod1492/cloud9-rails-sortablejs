@@ -16,7 +16,6 @@ Cloud9 上に Rails 6 開発環境が構築済みとします。
 Cloud9 を起動し、ターミナル画面を開きます(Alt + T)。
 
 sortablejs-test という Rails アプリケーションを作成します。
-Webpacker のインストールも実行します。
 
     rails new sortablejs-test
     cd sortablejs-test
